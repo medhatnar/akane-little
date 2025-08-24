@@ -4,7 +4,7 @@ export default function Home() {
   return (
     <div className="font-sans">
       <main className="w-screen">
-        <div className="img-container w-screeb h-screen bg-blue relative">
+        <div className="img-container w-full h-130 sm:w-screen sm:h-screen relative">
           <Image
             src="/corner1.png"
             alt="Akane Little"

@@ -14,25 +14,24 @@ const navItems = {
     name: "contact",
   },
 };
-// w-[calc(100%-50px)] text-calc(1rem*1.2vw+1rem)
-// calc((var(--normal-text-size-value) - 1) * 1.2vw + 1rem);
+
 export function Navbar() {
   return (
-    <aside className="mb-16">
+    <aside className="px-0 md:px-10 sm:mb-10">
       <div className="lg:sticky lg:top-20">
         <nav
           className="flex flex-row w-full justify-between items-center"
           id="nav"
         >
-          <div className="m-2">
+          <div className="p-4">
             <Link
               href="/"
-              className="rounded-sm p-4 m-1 text-[calc(1*calc(.012*min(100vh,900px))+1rem)] tracking-widest"
+              className="rounded-sm font-thin text-[calc(1*calc(.012*min(100vh,900px))+1rem)] tracking-widest"
             >
               Akane Little
             </Link>
           </div>
-          <div className="flex flex-row p-4 tracking-widest">
+          <div className="flex flex-row p-4 tracking-wider">
             <button
               className="header-burger-btn burger p-5 block sm:hidden"
               data-test="header-burger"
@@ -51,7 +50,7 @@ export function Navbar() {
                 <Link
                   key={path}
                   href={path}
-                  className="hidden sm:flex align-middle py-1 px-2 m-1 text-base sm:text-[calc(.5*calc(.012*min(100vh,900px))+1rem)]"
+                  className="hidden sm:flex align-middle py-1 px-2 m-1 text-base sm:text-[calc(.5*calc(.012*min(100vh,900px))+1rem)] font-thin"
                 >
                   {name}
                 </Link>
