@@ -1,0 +1,68 @@
+export function getHyperLink(name: string) {
+  if (name === "To Be Free [Official Music Video]") {
+    return (
+      <a href="https://youtu.be/xSJy3LvWGkw?si=gPAarMXRaXVJgnBx&t=28">
+        Sam Smith - To Be Free [Official Music Video]
+      </a>
+    );
+  }
+  if (name === "Asfixia [Official Music Video]") {
+    return (
+      <a href="https://youtu.be/QmkjRuF1qBU?si=z9dtYrFEffiK269c&t=12">
+        Asfixia [Official Music Video]
+      </a>
+    );
+  }
+
+  if (
+    name === "American Girl (Live at the Fillmore, 1997) [Official Music Video]"
+  ) {
+    return (
+      <a href="https://www.youtube.com/watch?v=oMc69K4AcZQ">
+        Tom Petty - American Girl (Live at the Fillmore, 1997) [Official Music Video]
+      </a>
+    );
+  }
+
+  if (name === "A sigh of origin [dance film]") {
+    return (
+      <a href="https://www.hivewild.com/a-sigh-of-origin">
+        A sigh of origin [dance film]
+      </a>
+    );
+  }
+
+  if (name === "All This Time [Official Music Video]") {
+    return (
+      <a href="https://www.youtube.com/watch?v=mfXTGIdvlNA">
+        All This Time [Official Music Video]
+      </a>
+    );
+  }
+
+  if (name === "again, it pulls [dance film]") {
+    return (
+      <a href="https://www.youtube.com/watch?v=Rd4sJ2WUzr8">
+        again, it pulls [dance film]
+      </a>
+    );
+  }
+
+  if (name === "Psychic Vampire [Official Music Video]") {
+    return (
+      <a href="https://www.youtube.com/watch?v=gSz-AwN0loU">
+        Psychic Vampire [Official Music Video]
+      </a>
+    );
+  }
+
+  if (name === "power + pleasure???") {
+    return <a href="https://youtu.be/7XjDwNrY2_M">power + pleasure???</a>;
+  }
+
+  if (name === "id") {
+    return <a href="https://www.youtube.com/watch?v=dBw5XuQeWSE">id</a>;
+  }
+
+  return name;
+};
