@@ -3,11 +3,13 @@
 :root {
   --background: #ffffff;
   --foreground: #171717;
+  --maroon: #690008;
 }
 
 @theme inline {
   --color-background: var(--background);
   --color-foreground: var(--foreground);
+  --color-maroon: var(--maroon);
 }
 
 @media (prefers-color-scheme: dark) {
@@ -31,6 +33,53 @@ body {
   color: #690008;
 }
 
+.experience-section a {
+  color: #690008;
+}
+
 a:hover, button:hover {
   color: #690008;
+}
+
+#fellowships-awards {
+  
+
+  @media (width >= 64rem) { 
+    height: calc(var(--spacing) * 45);
+   }
+}
+
+#education, #fellowships-awards {
+  height: calc(var(--spacing) * 37);
+  border: none;
+
+  @media (width >= 64rem) { 
+    height: calc(var(--spacing) * 45);
+   }
+}
+
+#download-cv-pdf-btn {
+  border: 0;
+  line-height: 2.5;
+  padding: 5px 20px;
+  font-size: 1rem;
+  text-align: center;
+  color: white;
+  text-shadow: 1px 1px 1px black;
+  background-color: var(--maroon);
+  background-image: linear-gradient(
+    to top left,
+    rgb(0 0 0 / 0.2),
+    rgb(0 0 0 / 0.2) 30%,
+    transparent
+  );
+  box-shadow:
+    inset 2px 2px 3px rgb(255 255 255 / 0.6),
+    inset -2px -2px 3px rgb(0 0 0 / 0.6);
+}
+
+#download-cv-pdf-btn:active {
+  box-shadow:
+    inset -2px -2px 3px rgb(255 255 255 / 0.6),
+    inset 2px 2px 3px rgb(0 0 0 / 0.6);
 }
