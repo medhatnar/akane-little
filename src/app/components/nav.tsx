@@ -46,14 +46,12 @@ export function Navbar() {
             <button
               className="header-burger-btn burger p-5 block sm:hidden"
               data-test="header-burger"
-              onClick={() => setOverlayActive(!overlayActive) }
+              onClick={() => setOverlayActive(!overlayActive)}
             >
               <span className="js-header-burger-open-title sr-only">
                 Open or Close Menu
               </span>
-              <div
-                className="burger-box flex flex-col justify-between"
-              >
+              <div className="burger-box flex flex-col justify-between">
                 <div className="top-bun w-16 h-1 border-b border-black mt-1 mx-auto"></div>
                 <div className="patty w-16 h-1 border-b border-black my-4 mx-auto"></div>
                 <div className="bottom-bun w-16 h-1 border-b border-black mb-1 mx-auto"></div>
@@ -76,11 +74,24 @@ export function Navbar() {
           </div>
         </nav>
       </div>
-      <div className={`overlay ${overlayActive ? 'block' : 'hidden'}`}>
-        <div className="overlay-content">
-          <a href="#">Home</a>
-          <a href="#">About</a>
-          <a href="#">Contact</a>
+      <div className={`overlay ${overlayActive ? "block" : "hidden"}`}>
+        <div className="overlay-content mx-auto">
+          <button
+              className="text-white mx-auto border border-solid p-32 w-32"
+              onClick={() => setOverlayActive(false)}
+            >X</button>
+          {Object.entries(navItems).map(([path, { name }]) => {
+            return (
+              <Link
+                key={path}
+                href={path}
+                className={`hidden py-2 px-2 m-1 mt-8 text-base sm:text-[calc(.5*calc(.012*min(100vh,900px))+1rem)] ${styles.inactive}`}
+                onClick={() => { setActivePage(name); setOverlayActive(false);}}
+              >
+                {name}
+              </Link>
+            );
+          })}
         </div>
       </div>
     </aside>
