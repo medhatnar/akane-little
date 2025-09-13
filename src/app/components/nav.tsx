@@ -1,4 +1,6 @@
+"use client";
 import Link from "next/link";
+import { useState } from "react";
 
 const navItems = {
   "/about": {
@@ -15,7 +17,15 @@ const navItems = {
   },
 };
 
+const styles = {
+  active: "text-(--maroon) font-bold",
+  inactive: "font-thin",
+};
+
 export function Navbar() {
+  const [activePage, setActivePage] = useState("");
+  const [overlayActive, setOverlayActive] = useState(false);
+
   return (
     <aside className="px-0 md:px-10 sm:mb-10">
       <div className="lg:sticky lg:top-20">
@@ -27,6 +37,7 @@ export function Navbar() {
             <Link
               href="/"
               className="rounded-sm font-thin text-[calc(1*calc(.012*min(100vh,900px))+1rem)] tracking-widest"
+              onClick={() => setActivePage("")}
             >
               Akane Little
             </Link>
@@ -35,11 +46,14 @@ export function Navbar() {
             <button
               className="header-burger-btn burger p-5 block sm:hidden"
               data-test="header-burger"
+              onClick={() => setOverlayActive(!overlayActive) }
             >
               <span className="js-header-burger-open-title sr-only">
                 Open or Close Menu
               </span>
-              <div className="burger-box flex flex-col justify-between">
+              <div
+                className="burger-box flex flex-col justify-between"
+              >
                 <div className="top-bun w-16 h-1 border-b border-black mt-1 mx-auto"></div>
                 <div className="patty w-16 h-1 border-b border-black my-4 mx-auto"></div>
                 <div className="bottom-bun w-16 h-1 border-b border-black mb-1 mx-auto"></div>
@@ -50,7 +64,10 @@ export function Navbar() {
                 <Link
                   key={path}
                   href={path}
-                  className="hidden sm:flex align-middle py-1 px-2 m-1 text-base sm:text-[calc(.5*calc(.012*min(100vh,900px))+1rem)] font-thin"
+                  className={`hidden sm:flex align-middle py-1 px-2 m-1 text-base sm:text-[calc(.5*calc(.012*min(100vh,900px))+1rem)] ${
+                    activePage === name ? styles.active : styles.inactive
+                  }`}
+                  onClick={() => setActivePage(name)}
                 >
                   {name}
                 </Link>
@@ -58,6 +75,13 @@ export function Navbar() {
             })}
           </div>
         </nav>
+      </div>
+      <div className={`overlay ${overlayActive ? 'block' : 'hidden'}`}>
+        <div className="overlay-content">
+          <a href="#">Home</a>
+          <a href="#">About</a>
+          <a href="#">Contact</a>
+        </div>
       </div>
     </aside>
   );

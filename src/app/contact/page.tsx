@@ -18,13 +18,12 @@ export default function Contact() {
       </figure>
       <main className="px-8 pb-10 lg:h-full lg:w-1/2 xl:w-3/4 text-center">
         <div className="contact-container sm:w-md text-3xl lg:text-4xl font-thin">
-          <p className="mb-5 sm:mb-10">
             <h1><b>Akane Little</b></h1>
             they/them
-          </p>
-          <address>
+          
+          <address className="mt-10">
             <a href="mailto:akane.m.little@gmail.com">akane.m.little@gmail.com</a>
-            <br />
+            <br /><br />
             Instagram:<a href="https://www.instagram.com/akane.little/">@akane.little</a>
           </address>
         </div>
