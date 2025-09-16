@@ -100,13 +100,17 @@ a:hover, button:hover {
 
 .overlay-content {
   position: relative;
-  top: 25%;
+  top: 15%;
   width: 100%;
   text-align: center;
-  margin-top: 30px;
+  text-decoration: none;
+  font-size: 36px;
+  color: white;
+  display: block; /* Stacked links */
+  transition: 0.3s;
 }
 
-.overlay-content a, button {
+.overlay-content > a, .overlay-content > button {
   text-decoration: none;
   font-size: 36px;
   color: white;

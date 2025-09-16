@@ -45,7 +45,7 @@ export function Navbar() {
           <div className="flex flex-row p-4 tracking-wider">
             <div className="sm:hidden header-burger-btn burger p-5">
               <button
-                className="hidden header-burger-btn burger p-5"
+                className="sm:hidden header-burger-btn burger p-5"
                 data-test="header-burger"
                 onClick={() => setOverlayActive(!overlayActive)}
               >
@@ -79,7 +79,7 @@ export function Navbar() {
       <div className={`overlay ${overlayActive ? "block" : "hidden"}`}>
         <div className="overlay-content mx-auto">
           <button
-            className="text-white mx-auto border border-solid p-32 w-32"
+            className="text-white mx-auto border border-solid py-4 px-8"
             onClick={() => setOverlayActive(false)}
           >
             X
