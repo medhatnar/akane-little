@@ -25,7 +25,7 @@ const styles = {
 export function Navbar() {
   const [activePage, setActivePage] = useState("");
   const [overlayActive, setOverlayActive] = useState(false);
-
+  console.log(overlayActive);
   return (
     <aside className="px-0 md:px-10 sm:mb-10">
       <div className="lg:sticky lg:top-20">
@@ -43,20 +43,22 @@ export function Navbar() {
             </Link>
           </div>
           <div className="flex flex-row p-4 tracking-wider">
-            <button
-              className="header-burger-btn burger p-5 block sm:hidden"
-              data-test="header-burger"
-              onClick={() => setOverlayActive(!overlayActive)}
-            >
-              <span className="js-header-burger-open-title sr-only">
-                Open or Close Menu
-              </span>
-              <div className="burger-box flex flex-col justify-between">
-                <div className="top-bun w-16 h-1 border-b border-black mt-1 mx-auto"></div>
-                <div className="patty w-16 h-1 border-b border-black my-4 mx-auto"></div>
-                <div className="bottom-bun w-16 h-1 border-b border-black mb-1 mx-auto"></div>
-              </div>
-            </button>
+            <div className="sm:hidden header-burger-btn burger p-5">
+              <button
+                className="hidden header-burger-btn burger p-5"
+                data-test="header-burger"
+                onClick={() => setOverlayActive(!overlayActive)}
+              >
+                <span className="js-header-burger-open-title sr-only">
+                  Open or Close Menu
+                </span>
+                <div className="burger-box flex flex-col justify-between">
+                  <div className="top-bun w-16 h-1 border-b border-black mt-1 mx-auto"></div>
+                  <div className="patty w-16 h-1 border-b border-black my-4 mx-auto"></div>
+                  <div className="bottom-bun w-16 h-1 border-b border-black mb-1 mx-auto"></div>
+                </div>
+              </button>
+            </div>
             {Object.entries(navItems).map(([path, { name }]) => {
               return (
                 <Link
@@ -77,16 +79,21 @@ export function Navbar() {
       <div className={`overlay ${overlayActive ? "block" : "hidden"}`}>
         <div className="overlay-content mx-auto">
           <button
-              className="text-white mx-auto border border-solid p-32 w-32"
-              onClick={() => setOverlayActive(false)}
-            >X</button>
+            className="text-white mx-auto border border-solid p-32 w-32"
+            onClick={() => setOverlayActive(false)}
+          >
+            X
+          </button>
           {Object.entries(navItems).map(([path, { name }]) => {
             return (
               <Link
                 key={path}
                 href={path}
                 className={`hidden py-2 px-2 m-1 mt-8 text-base sm:text-[calc(.5*calc(.012*min(100vh,900px))+1rem)] ${styles.inactive}`}
-                onClick={() => { setActivePage(name); setOverlayActive(false);}}
+                onClick={() => {
+                  setActivePage(name);
+                  setOverlayActive(false);
+                }}
               >
                 {name}
               </Link>
