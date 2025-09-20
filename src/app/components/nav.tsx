@@ -25,7 +25,7 @@ const styles = {
 export function Navbar() {
   const [activePage, setActivePage] = useState("");
   const [overlayActive, setOverlayActive] = useState(false);
-  console.log(overlayActive);
+  
   return (
     <aside className="px-0 md:px-10 sm:mb-10">
       <div className="lg:sticky lg:top-20">
