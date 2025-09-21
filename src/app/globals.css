@@ -37,27 +37,37 @@ body {
   color: #690008;
 }
 
-a:hover, button:hover {
+.programs-container a {
+  color: #690008;
+}
+
+.return-to-works {
+color: #690008;
+}
+
+a:hover,
+button:hover {
   color: #690008;
 }
 
 #fellowships-awards {
-  @media (width >= 64rem) { 
+  @media (width >= 64rem) {
     height: calc(var(--spacing) * 45);
-   }
+  }
 }
 
 #fellowships-awards p {
   width: 100px;
 }
 
-#education, #fellowships-awards {
+#education,
+#fellowships-awards {
   height: calc(var(--spacing) * 37);
   border: none;
 
-  @media (width >= 64rem) { 
+  @media (width >= 64rem) {
     height: calc(var(--spacing) * 45);
-   }
+  }
 }
 
 #download-cv-pdf-btn {
@@ -75,14 +85,12 @@ a:hover, button:hover {
     rgb(0 0 0 / 0.2) 30%,
     transparent
   );
-  box-shadow:
-    inset 2px 2px 3px rgb(255 255 255 / 0.6),
+  box-shadow: inset 2px 2px 3px rgb(255 255 255 / 0.6),
     inset -2px -2px 3px rgb(0 0 0 / 0.6);
 }
 
 #download-cv-pdf-btn:active {
-  box-shadow:
-    inset -2px -2px 3px rgb(255 255 255 / 0.6),
+  box-shadow: inset -2px -2px 3px rgb(255 255 255 / 0.6),
     inset 2px 2px 3px rgb(0 0 0 / 0.6);
 }
 
@@ -110,7 +118,8 @@ a:hover, button:hover {
   transition: 0.3s;
 }
 
-.overlay-content > a, .overlay-content > button {
+.overlay-content > a,
+.overlay-content > button {
   text-decoration: none;
   font-size: 36px;
   color: white;

@@ -6,10 +6,10 @@ export default function Works() {
     <div className="px-4 w-full">
       <h1 className="sr-only">Akane&apos;s past and upcoming performances.</h1>
       <ul className="grid grid-cols-1 md:grid-cols-3 md:gap-[16px] text-center mt-16">
-        {Object.entries(works).map(([id, { image, title, date }]) => {
+        {Object.entries(works).map(([slug, { image, title, date }]) => {
           return (
-            <li key={id} className="px-auto mb-8 md:mb-0 w-full text-center">
-              <a href={`/works/${id}`} className="w-full">
+            <li key={slug} className="px-auto mb-8 md:mb-0 w-full text-center">
+              <a href={`/works/${slug}`} className="w-full">
                 <div className="img-container w-full h-48 md:h-100 relative">
                   <Image
                     className="object-cover"

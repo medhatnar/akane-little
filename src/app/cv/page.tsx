@@ -58,7 +58,7 @@ export default function Contact() {
                 className="live-experience w-full h-70 md:h-100 font-thin lg:text-[calc(1*calc(.012*min(100vh,900px))+.5rem)] overflow-y-scroll border border-(--maroon)"
               >
                 {cv[section.experienceProp].map((exp) => {
-                  const name = getHyperLink(exp.title);
+                  const titleStyled = getHyperLink(exp.title);
                   return (
                     <li
                       key={exp.title}
@@ -66,7 +66,7 @@ export default function Contact() {
                     >
                       <p className="m-2">{exp.date}</p>
                       <ul className="flex flex-col w-3/4 mr-1 items-center text-center">
-                        <li className="font-bold">{name}</li>
+                        <li className="font-bold">{titleStyled}</li>
                         <li className="italic">{exp.description}</li>
                         <li className="italic">{exp.location}</li>
                       </ul>
