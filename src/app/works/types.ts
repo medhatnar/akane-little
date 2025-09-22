@@ -3,12 +3,16 @@ export interface WorkProps {
   title: string;
   date: string;
   image: {
+    thumbnail: {
+      path: string;
+      credit: string;
+    };
     assets: {
       paths: string[];
       credit: string;
     };
   };
-  video?: {embed: string}
+  video?: { embed: string };
   description: string;
   programs: {
     title: string;

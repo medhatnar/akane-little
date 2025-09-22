@@ -83,7 +83,7 @@ function WorkMobile({ performance }: WorkMobileProps) {
 export default function Work({ params }: { params: Usable<WorkProps> }) {
   const paramsUse = use(params);
   const slug = paramsUse.slug as WorksKey;
-  const performance = works[slug];
+  const performance = works[slug] as WorkProps;
   return (
     <div className="work-container px-4 w-full">
       <div className="md:hidden">
@@ -141,12 +141,12 @@ export default function Work({ params }: { params: Usable<WorkProps> }) {
           </figure>
         </div>
         <div className="gallery-container">
-          {performance.video && (
+          {performance?.video && (
             <div className="w-full mt-5 flex justify-center">
               <iframe
                 width="560"
                 height="315"
-                src={performance.video.embed}
+                src={performance?.video.embed}
                 title="YouTube video player"
                 frameBorder="0"
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
