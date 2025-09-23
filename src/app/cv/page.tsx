@@ -6,7 +6,7 @@ type CvKey = keyof typeof cv;
 
 const sections: { title: string; experienceProp: CvKey }[] = [
   { title: "LIVE PERFORMANCE (2018-2025)", experienceProp: "live" },
-  { title: "FILM + MUSIC VIDEO (2019-2025)", experienceProp: "recorded" },
+  { title: "FILM & MUSIC VIDEO (2019-2025)", experienceProp: "recorded" },
   {
     title: "SELECTED COMPANY WORK - RESIDENCIES, SHOOTS & GALAS (2021-2024)",
     experienceProp: "company-work",
@@ -18,10 +18,10 @@ const sections: { title: string; experienceProp: CvKey }[] = [
   { title: "EDUCATION", experienceProp: "education" },
 ];
 
-export default function Contact() {
-  // screenreader only page name for each page
+export default function CV() {
   return (
     <div className="figure-cv-container flex flex-col w-full h-full ">
+      <h1 className="sr-only">Akane&apos;s CV.</h1>
       <figure className="mb-5 w-screen md:w-full flex flex-col items-center w-full">
         <div className="img-container w-screen md:w-full h-120 lg:h-220 sm:mx-auto relative">
           <Image
@@ -36,18 +36,15 @@ export default function Contact() {
         </figcaption>
       </figure>
       <main className="cv-container">
-        <div className="text-center mb-8">
-          <a href="/cv.pdf" download="akane-little-cv.pdf">
-            <button id="download-cv-pdf-btn" className="tracking-widest">
-              Download CV as PDF
-            </button>
-          </a>
-        </div>
-
         <div className="cv w-full lg:w-3/4 mx-auto">
+          <div className="hidden md:block cv-download text-center mb-8 font-thin text-sm">
+            <a href="/cv.pdf" download="akane-little-cv.pdf">
+                Download CV as PDF
+            </a>
+          </div>
           {sections.map((section) => (
             <section
-              className="experience-section px-2 md:px-16 mb-16 font-"
+              className="experience-section px-2 md:px-16 mb-16"
               key={section.experienceProp}
             >
               <h1 className="font-thin text-[calc(1*calc(.012*min(100vh,900px))+1rem)] tracking-widest text-center my-2">
@@ -76,6 +73,11 @@ export default function Contact() {
               </ul>
             </section>
           ))}
+           <div className="block md:hidden cv-download text-center mb-8 font-thin text-sm">
+            <a href="/cv.pdf" download="akane-little-cv.pdf">
+                Download CV as PDF
+            </a>
+          </div>
         </div>
       </main>
     </div>

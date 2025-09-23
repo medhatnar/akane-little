@@ -29,20 +29,16 @@ body {
   font-family: Helvetica, sans-serif;
 }
 
+.programs-container a,
+.experience-section a,
 .contact-container a {
   color: #690008;
 }
 
-.experience-section a {
+.return-to-works,
+.gallery-link,
+.cv-download {
   color: #690008;
-}
-
-.programs-container a {
-  color: #690008;
-}
-
-.return-to-works {
-color: #690008;
 }
 
 a:hover,
@@ -68,6 +64,10 @@ button:hover {
   @media (width >= 64rem) {
     height: calc(var(--spacing) * 45);
   }
+}
+
+#education {
+  margin-bottom: none;
 }
 
 #download-cv-pdf-btn {

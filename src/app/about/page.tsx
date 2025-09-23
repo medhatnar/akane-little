@@ -16,7 +16,7 @@ export default function About() {
         <figcaption className="text-xs sm:text-sm text-gray-500">photo by Benja Thompson</figcaption>
       </figure>
       <main className="px-8 pb-10 lg:h-full lg:w-1/2 xl:w-3/4">
-        <div className="about-container sm:w-md lg:w-xl text-md sm:text-xl lg:text-1xl sm:font-thin">
+        <div className="about-container sm:w-md lg:w-xl text-md sm:text-xl sm:font-thin">
           <p className="mb-5 sm:mb-10">
             <b>Akane Little</b> is a Brooklyn-based dance artist approaching the body
             and performance as an altar-portal for transmuting energy and

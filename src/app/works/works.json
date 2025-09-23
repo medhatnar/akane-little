@@ -9,7 +9,7 @@
     "programs": [
       {
         "title": "selected for Triskelion Arts Split Bill Fall 2025",
-        "link": "https://www.triskelionarts.org/fall-2025-performances/split-bill-46"
+        "link": "/"
       }
     ],
     "image": {
@@ -18,21 +18,22 @@
         "credit": "photos by Benja Thompson"
       },
       "assets": {
+        "galleryPath": "https://postimg.cc/gallery/Wk4mvd7",
         "paths": [
-          "/works/formaldehyde/formaldehyde-1.jpg",
-          "/works/formaldehyde/formaldehyde-2.jpg",
-          "/works/formaldehyde/formaldehyde-3.jpg",
-          "/works/formaldehyde/formaldehyde-4.jpg",
-          "/works/formaldehyde/formaldehyde-5.jpg",
-          "/works/formaldehyde/formaldehyde-6.jpg",
-          "/works/formaldehyde/formaldehyde-7.jpg",
-          "/works/formaldehyde/formaldehyde-8.jpg",
-          "/works/formaldehyde/formaldehyde-9.jpg",
-          "/works/formaldehyde/formaldehyde-10.jpg",
-          "/works/formaldehyde/formaldehyde-11.jpg",
-          "/works/formaldehyde/formaldehyde-12.jpg",
-          "/works/formaldehyde/formaldehyde-13.jpg",
-          "/works/formaldehyde/formaldehyde-14.jpg"
+          "https://i.postimg.cc/MptDYrzx/formaldehyde-1.jpg",
+          "https://i.postimg.cc/5ycqthS5/formaldehyde-2.jpg",
+          "https://i.postimg.cc/hG51kzJ5/formaldehyde-3.jpg",
+          "https://i.postimg.cc/pd4K0w4N/formaldehyde-4.jpg",
+          "https://i.postimg.cc/tgKVdhnp/formaldehyde-5.jpg",
+          "https://i.postimg.cc/VkNMzscQ/formaldehyde-6.jpg",
+          "https://i.postimg.cc/5y1YTbmr/formaldehyde-7.jpg",
+          "https://i.postimg.cc/LXv24Spw/formaldehyde-8.jpg",
+          "https://i.postimg.cc/g0dCx7NW/formaldehyde-9.jpg",
+          "https://i.postimg.cc/hPQW6TfH/formaldehyde-10.jpg",
+          "https://i.postimg.cc/vmzpfvN6/formaldehyde-11.jpg",
+          "https://i.postimg.cc/tJXdPh87/formaldehyde-12.jpg",
+          "https://i.postimg.cc/VkSqjsZ9/formaldehyde-13.jpg",
+          "https://i.postimg.cc/jqX4TFJf/formaldehyde-14.jpg"
         ],
         "credit": "photos by Benja Thompson"
       }
@@ -67,15 +68,16 @@
         "credit": "performance stills"
       },
       "assets": {
+        "galleryPath": "https://postimg.cc/gallery/KYtbJgR",
         "paths": [
-          "/works/softspells/ss-1.jpg",
-          "/works/softspells/ss-2.jpg",
-          "/works/softspells/ss-3.jpg",
-          "/works/softspells/ss-4.jpg",
-          "/works/softspells/ss-5.jpg",
-          "/works/softspells/ss-6.jpg",
-          "/works/softspells/ss-7.jpg",
-          "/works/softspells/ss-8.jpg"
+          "https://i.postimg.cc/gkDpvRBR/ss-1.jpg",
+          "https://i.postimg.cc/L6RRYvv2/ss-2.jpg",
+          "https://i.postimg.cc/bwwhLJK5/ss-3.jpg",
+          "https://i.postimg.cc/g2tP7pp2/ss-4.jpg",
+          "https://i.postimg.cc/TwgMhWDK/ss-5.jpg",
+          "https://i.postimg.cc/DzWKkNfd/ss-6.jpg",
+          "https://i.postimg.cc/qqrfKMsj/ss-7.jpg",
+          "https://i.postimg.cc/fW7QNmsF/ss-8.jpg"
         ],
         "credit": "performance stills"
       }
@@ -119,6 +121,7 @@
         "credit": "photos by Shige Moriya, courtesy of LEIMAY"
       },
       "assets": {
+        "galleryPath": "https://postimg.cc/gallery/y97rSVW",
         "paths": [
           "/works/momma/momma-1.jpg",
           "/works/momma/momma-2.jpg",
@@ -166,6 +169,7 @@
         "credit": "by lumenbodies (Benja & Akane)"
       },
       "assets": {
+        "galleryPath": "https://postimg.cc/gallery/N5FjVG2",
         "paths": [
           "/works/redroom/corner-1.png",
           "/works/redroom/corner-2.png",
@@ -203,18 +207,19 @@
         "credit": "photos by Deb Choudhuri"
       },
       "assets": {
+        "galleryPath": "https://postimg.cc/gallery/r0hNVFV",
         "paths": [
-          "/works/post-op/po-1.jpeg",
-          "/works/post-op/po-2.jpeg",
-          "/works/post-op/po-3.jpeg",
-          "/works/post-op/po-4.jpeg",
-          "/works/post-op/po-5.jpeg",
-          "/works/post-op/po-6.jpeg",
-          "/works/post-op/po-7.jpeg",
-          "/works/post-op/po-8.jpeg",
-          "/works/post-op/po-9.jpeg",
-          "/works/post-op/po-10.jpeg",
-          "/works/post-op/po-11.jpeg"
+          "https://i.postimg.cc/WbWpJC3g/po-1.jpg",
+          "https://i.postimg.cc/dttt3wqJ/po-2.jpg",
+          "https://i.postimg.cc/rm1F0p0w/po-3.jpg",
+          "https://i.postimg.cc/Gtb3k1GJ/po-4.jpg",
+          "https://i.postimg.cc/XNZ6zq7G/po-5.jpg",
+          "https://i.postimg.cc/FR884bsf/po-6.jpg",
+          "https://i.postimg.cc/g0cfqkT0/po-7.jpg",
+          "https://i.postimg.cc/QC7PxBHf/po-8.jpg",
+          "/https://i.postimg.cc/8PjcwNxt/po-9.jpg",
+          "https://i.postimg.cc/k4qDy8db/po-10.jpg",
+          "https://i.postimg.cc/0yK65Pfb/po-11.jpg"
         ],
         "credit": "photos by Deb Choudhuri"
       }
@@ -236,18 +241,19 @@
         "credit": "photos by Deb Choudhuri"
       },
       "assets": {
+        "galleryPath": "https://postimg.cc/gallery/src7p8c",
         "paths": [
-          "/works/pre-surgery/ps-1.JPG",
-          "/works/pre-surgery/ps-2.jpg",
-          "/works/pre-surgery/ps-3.jpg",
-          "/works/pre-surgery/ps-4.jpg",
-          "/works/pre-surgery/ps-5.jpg",
-          "/works/pre-surgery/ps-6.jpg",
-          "/works/pre-surgery/ps-7.jpg",
-          "/works/pre-surgery/ps-8.jpeg",
-          "/works/pre-surgery/ps-9.jpeg",
-          "/works/pre-surgery/ps-10.jpeg",
-          "/works/pre-surgery/ps-11.jpg"
+          "https://i.postimg.cc/pLwXCSF7/ps-1.jpg",
+          "https://i.postimg.cc/y8VwHyzd/ps-2.jpg",
+          "https://i.postimg.cc/KcBV3HGj/ps-3.jpg",
+          "https://i.postimg.cc/vTrNRcqf/ps-4.jpg",
+          "https://i.postimg.cc/RVXzqDdf/ps-5.jpg",
+          "https://i.postimg.cc/qq6CgKV6/ps-6.jpg",
+          "https://i.postimg.cc/y6Df0r7c/ps-7.jpg",
+          "https://i.postimg.cc/mrS3G7Bb/ps-8.jpg",
+          "https://i.postimg.cc/ydM0mjTy/ps-9.jpg",
+          "https://i.postimg.cc/Qx0HsSWY/ps-10.jpg",
+          "https://i.postimg.cc/j5FZGy4D/ps-11.jpg"
         ],
         "credit": "photos by Deb Choudhuri"
       }
@@ -269,6 +275,7 @@
         "credit": "photos by Deb Choudhuri"
       },
       "assets": {
+        "galleryPath": "https://postimg.cc/gallery/NG5TFgV",
         "paths": [
           "/works/second-date/sd-1.jpeg",
           "/works/second-date/sd-2.jpeg",

@@ -8,6 +8,7 @@ export interface WorkProps {
       credit: string;
     };
     assets: {
+      galleryPath: string;
       paths: string[];
       credit: string;
     };
