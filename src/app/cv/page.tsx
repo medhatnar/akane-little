@@ -26,7 +26,7 @@ export default function CV() {
         <div className="img-container w-screen md:w-full h-120 lg:h-220 sm:mx-auto relative">
           <Image
             className="object-contain"
-            src="https://i.postimg.cc/cJmdCdzq/Akane-Little-Mengwen-Cao.jpg"
+            src="/AkaneLittle_MengwenCao.jpg"
             alt="A portrait of Akane"
             layout="fill"
           />
