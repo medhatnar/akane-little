@@ -8,7 +8,7 @@ export default function Contact() {
         <div className="img-container w-screen md:w-full h-70 xl:h-100 sm:mx-auto relative">
           <Image
             className="object-contain md:object-cover lg:object-contain"
-            src="/corner12.png"
+            src="https://i.postimg.cc/Vk98ZYmS/corner12.png"
             alt="Akane is sprawled and contorted against the corner of a dark room."
             layout="fill"
           />

@@ -7,7 +7,7 @@ export default function About() {
         <div className="img-container w-screen md:w-full h-70 md:h-120 sm:mx-auto relative">
           <Image
             className="object-contain md:object-cover lg:object-contain"
-            src="/corner5.png"
+            src="https://i.postimg.cc/xdtSYtkn/corner5.png"
             alt="Akane is laying on a chair with one half of their body and floating in the air with the other half."
             layout="fill"
             priority
