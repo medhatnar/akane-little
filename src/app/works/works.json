@@ -209,17 +209,17 @@
       "assets": {
         "galleryPath": "https://postimg.cc/gallery/r0hNVFV",
         "paths": [
-          "https://i.postimg.cc/WbWpJC3g/po-1.jpg",
-          "https://i.postimg.cc/dttt3wqJ/po-2.jpg",
-          "https://i.postimg.cc/rm1F0p0w/po-3.jpg",
-          "https://i.postimg.cc/Gtb3k1GJ/po-4.jpg",
-          "https://i.postimg.cc/XNZ6zq7G/po-5.jpg",
-          "https://i.postimg.cc/FR884bsf/po-6.jpg",
-          "https://i.postimg.cc/g0cfqkT0/po-7.jpg",
-          "https://i.postimg.cc/QC7PxBHf/po-8.jpg",
-          "https://i.postimg.cc/8PjcwNxt/po-9.jpg",
-          "https://i.postimg.cc/k4qDy8db/po-10.jpg",
-          "https://i.postimg.cc/0yK65Pfb/po-11.jpg"
+          "/works/po-1.jpeg",
+          "/works/po-2.jpeg",
+          "/works/po-3.jpeg",
+          "/works/po-4.jpeg",
+          "/works/po-5.jpeg",
+          "/works/po-6.jpeg",
+          "/works/po-7.jpeg",
+          "/works/po-8.jpeg",
+          "/works/po-9.jpeg",
+          "/works/po-10.jpeg",
+          "/works/po-11.jpeg"
         ],
         "credit": "photos by Deb Choudhuri"
       }
