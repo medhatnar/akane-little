@@ -70,14 +70,14 @@
       "assets": {
         "galleryPath": "https://postimg.cc/gallery/KYtbJgR",
         "paths": [
-          "https://i.postimg.cc/gkDpvRBR/ss-1.jpg",
-          "https://i.postimg.cc/L6RRYvv2/ss-2.jpg",
-          "https://i.postimg.cc/bwwhLJK5/ss-3.jpg",
-          "https://i.postimg.cc/g2tP7pp2/ss-4.jpg",
-          "https://i.postimg.cc/TwgMhWDK/ss-5.jpg",
-          "https://i.postimg.cc/DzWKkNfd/ss-6.jpg",
-          "https://i.postimg.cc/qqrfKMsj/ss-7.jpg",
-          "https://i.postimg.cc/fW7QNmsF/ss-8.jpg"
+          "/works/softspells/ss-1.jpg",
+          "/works/softspells/ss-2.jpg",
+          "/works/softspells/ss-3.jpg",
+          "/works/softspells/ss-4.jpg",
+          "/works/softspells/ss-5.jpg",
+          "/works/softspells/ss-6.jpg",
+          "/works/softspells/ss-7.jpg",
+          "/works/softspells/ss-8.jpg"
         ],
         "credit": "performance stills"
       }
