@@ -50,7 +50,7 @@ export function getHyperLink(name: string) {
 
   if (name === "Psychic Vampire [Official Music Video]") {
     return (
-      <a href="https://www.youtube.com/watch?v=gSz-AwN0loU">
+      <a href="https://youtu.be/gSz-AwN0loU?si=MYuTQwAI9_Nc6Y4U&t=9">
         Psychic Vampire [Official Music Video]
       </a>
     );
@@ -60,7 +60,7 @@ export function getHyperLink(name: string) {
     return <a href="https://youtu.be/7XjDwNrY2_M">power + pleasure???</a>;
   }
 
-  if (name === "id") {
+  if (name === "あ (Ah)") {
     return <a href="https://www.youtube.com/watch?v=dBw5XuQeWSE">id</a>;
   }
 
