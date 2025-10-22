@@ -61,7 +61,7 @@ export function getHyperLink(name: string) {
   }
 
   if (name === "あ (Ah)") {
-    return <a href="https://www.youtube.com/watch?v=dBw5XuQeWSE">id</a>;
+    return <a href="https://www.youtube.com/watch?v=dBw5XuQeWSE">あ (Ah)</a>;
   }
 
   return name;
