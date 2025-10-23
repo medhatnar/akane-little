@@ -13,13 +13,15 @@ export default function About() {
             priority
           />
         </div>
-        <figcaption className="text-xs sm:text-sm text-gray-500">photo by Benja Thompson</figcaption>
+        <figcaption className="text-xs sm:text-sm text-gray-500">
+          photo by Benja Thompson
+        </figcaption>
       </figure>
       <main className="px-8 pb-10 lg:h-full lg:w-1/2 xl:w-3/4">
         <div className="about-container sm:w-md lg:w-xl text-md sm:text-xl sm:font-thin">
           <p className="mb-5 sm:mb-10">
-            <b>Akane Little</b> is a Brooklyn-based dance artist approaching the body
-            and performance as an altar-portal for transmuting energy and
+            <b>Akane Little</b> is a Brooklyn-based dance artist approaching the
+            body and performance as an altar-portal for transmuting energy and
             channeling worlds. They started off in competition dance in a
             small-town studio in Mississippi, and continued on to study
             contemporary dance under Alysia Ramos at Oberlin College.
@@ -30,8 +32,17 @@ export default function About() {
             Project, Boy Friday, Hivewild, Hard/Femme Dances, God Complex x Aeon
             Andreas, Nick Brooke, Michael Chinworth, Chaesong Kim, Bridget
             Kearney, Carolina Oliveros, and more). Since 2023, they have been a
-            core member of the <b>LEIMAY</b> Ensemble under the direction of Ximena
-            Garnica & Shige Moriya.
+            core member of the <b>LEIMAY</b> Ensemble under the direction of
+            Ximena Garnica & Shige Moriya.
+          </p>
+          <p>
+            They approach each production as an altar, set with uncanny objects
+            and activated by the choreographic disciplines of Western
+            contemporary dance, ballet, drag, lip sync, competition dance from
+            the Bible Belt, and Butoh. Their altars ring with hyper-specific
+            sonic references that tether the work to conscious realities, and
+            hold tender narrative arcs that are dimensionally deepened by the
+            slippage between humor and horror.
           </p>
         </div>
       </main>
