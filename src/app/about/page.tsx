@@ -26,7 +26,7 @@ export default function About() {
             small-town studio in Mississippi, and continued on to study
             contemporary dance under Alysia Ramos at Oberlin College.
           </p>
-          <p>
+          <p className="mb-5 sm:mb-10">
             They have freelanced in both Cleveland, OH (Catherine Meredith,
             Megan Young, Rebecca Burcher, and more) and New York City (Kinesis
             Project, Boy Friday, Hivewild, Hard/Femme Dances, God Complex x Aeon
@@ -38,7 +38,7 @@ export default function About() {
           <p>
             They approach each production as an altar, set with uncanny objects
             and activated by the choreographic disciplines of Western
-            contemporary dance, ballet, drag, lip sync, competition dance from
+            contemporary <b>dance, ballet, drag, lip sync</b>, competition dance from
             the Bible Belt, and Butoh. Their altars ring with hyper-specific
             sonic references that tether the work to conscious realities, and
             hold tender narrative arcs that are dimensionally deepened by the
