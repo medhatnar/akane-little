@@ -38,7 +38,7 @@ export default function About() {
           <p>
             They approach each production as an altar, set with uncanny objects
             and activated by the choreographic disciplines of Western
-            contemporary <b>dance, ballet, drag, lip sync</b>, competition dance from
+            contemporary dance, ballet, drag, lip sync, competition dance from
             the Bible Belt, and Butoh. Their altars ring with hyper-specific
             sonic references that tether the work to conscious realities, and
             hold tender narrative arcs that are dimensionally deepened by the
