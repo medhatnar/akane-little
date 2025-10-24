@@ -28,12 +28,11 @@ export default function About() {
           </p>
           <p className="mb-5 sm:mb-10">
             They have freelanced in both Cleveland, OH (Catherine Meredith,
-            Megan Young, Rebecca Burcher, and more) and New York City (Kinesis
-            Project, Boy Friday, Hivewild, Hard/Femme Dances, God Complex x Aeon
-            Andreas, Nick Brooke, Michael Chinworth, Chaesong Kim, Bridget
-            Kearney, Carolina Oliveros, and more). Since 2023, they have been a
-            core member of the <b>LEIMAY</b> Ensemble under the direction of
-            Ximena Garnica & Shige Moriya.
+            Megan Young, Madi Jackson, Rebecca Burcher, and more) and New York City (Kinesis Project, 
+            Boy Friday, Hivewild, Hard/Femme Dances, God Complex x Aeon Andreas, Nick Brooke, Michael 
+            Chinworth, Chaesong Kim, and more). Commercial credits include Bridget Kearney (Lake Street 
+            Dive), Carolina Oliveros (Combo Chimbita), Tom Petty, and Sam Smith. Since 2023, they have been a 
+            core member of the LEIMAY Ensemble under the direction of Ximena Garnica & Shige Moriya.
           </p>
           <p>
             They approach each production as an altar, set with uncanny objects
