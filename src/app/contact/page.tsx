@@ -24,6 +24,8 @@ export default function Contact() {
           
           <address className="mt-10">
             <a href="mailto:akane.m.little@gmail.com">akane.m.little@gmail.com</a>
+            <br/>
+            <span className="sr-only">Instagram: @akane.little</span>
             IG: <a href="https://www.instagram.com/akane.little/">@akane.little</a>
           </address>
         </div>
