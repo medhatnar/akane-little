@@ -70,7 +70,7 @@
       "assets": {
         "galleryPath": "https://postimg.cc/gallery/Wk4mvd7",
         "paths": [
-          "/works/a-study-in-eros/eros-flyer.jpeg",
+          "/works/a-study-in-eros/eros-flyer.jpeg"
         ],
         "credit": "photos by Benja Thompson"
       }
@@ -83,7 +83,7 @@
         "contributors": "Akane Little" },
 
       { "contribution": "performance",
-        "contributors": "lumenbodies (Akane & Benja)" },
+        "contributors": "lumenbodies (Akane & Benja)" }
     ],
     "duration": 7
   },
