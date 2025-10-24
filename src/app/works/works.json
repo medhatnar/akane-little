@@ -49,8 +49,46 @@
     ],
     "duration": 24
   },
-  "softspells": {
+  "a-study-in-eros": {
     "id": 2,
+    "creators": "by lumembodies (Akane & Benja)",
+    "title": "a study in eros",
+    "slug": "a-study-in-eros",
+    "date": "(2025)",
+    "description": "a study in eros is an embodied installation exploring sapphic triangles and sublime foam, sculpting with water, latex, and light.",
+    "programs": [
+      {
+        "title": "presented at CONCRETE BOOM: Volume 4",
+        "link": "https://dixonplace.org/performances/concrete-boom-volume-4/"
+      }
+    ],
+    "image": {
+      "thumbnail": {
+        "path": "/works/a-study-in-eros/eros-1.jpeg",
+        "credit": "photos by Benja Thompson"
+      },
+      "assets": {
+        "galleryPath": "https://postimg.cc/gallery/Wk4mvd7",
+        "paths": [
+          "/works/a-study-in-eros/eros-flyer.jpeg",
+        ],
+        "credit": "photos by Benja Thompson"
+      }
+    },
+    "credits": [
+      { "contribution": "sound",
+        "contributors": "Benja Thompson" },
+      {
+        "contribution": "costume",
+        "contributors": "Akane Little" },
+
+      { "contribution": "performance",
+        "contributors": "lumenbodies (Akane & Benja)" },
+    ],
+    "duration": 7
+  },
+  "softspells": {
+    "id": 3,
     "creators": "by lumembodies (Akane & Benja)",
     "title": "softspells",
     "slug": "softspells",
@@ -99,7 +137,7 @@
     "duration": 38
   },
   "momma": {
-    "id": 3,
+    "id": 4,
     "creators": "Akane Little",
     "title": "MOMMA!",
     "slug": "momma",
@@ -153,7 +191,7 @@
     "duration": 45
   },
   "red-room": {
-    "id": 4,
+    "id": 5,
     "creators": "by lumenbodies (Benja & Akane)",
     "title": "red room",
     "slug": "red-room",
@@ -194,7 +232,7 @@
     "duration": 3
   },
   "post-op": {
-    "id": 5,
+    "id": 6,
     "creators": "",
     "title": "post-op",
     "slug": "post-op",
@@ -228,7 +266,7 @@
     "duration": 0
   },
   "pre-surgery": {
-    "id": 6,
+    "id": 7,
     "creators": "",
     "title": "pre-surgery",
     "slug": "pre-surgery",
@@ -262,7 +300,7 @@
     "duration": 0
   },
   "second-date": {
-    "id": 7,
+    "id": 8,
     "creators": "",
     "title": "second date",
     "slug": "second-date",
