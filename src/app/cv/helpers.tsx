@@ -14,9 +14,7 @@ export function getHyperLink(name: string) {
     );
   }
 
-  if (
-    name === "American Girl (Live at the Fillmore, 1997) [Official Music Video]"
-  ) {
+  if (name === "American Girl (Live at the Fillmore, 1997) [Official Music Video]") {
     return (
       <a href="https://www.youtube.com/watch?v=oMc69K4AcZQ">
         Tom Petty - American Girl (Live at the Fillmore, 1997) [Official Music Video]
@@ -57,11 +55,66 @@ export function getHyperLink(name: string) {
   }
 
   if (name === "power + pleasure???") {
-    return <a href="https://youtu.be/7XjDwNrY2_M">power + pleasure???</a>;
+    return (
+      <a href="https://youtu.be/7XjDwNrY2_M">
+        power + pleasure???
+    </a>;
+    );
   }
 
   if (name === "あ (Ah)") {
-    return <a href="https://www.youtube.com/watch?v=dBw5XuQeWSE">あ (Ah)</a>;
+    return (
+      <a href="https://www.youtube.com/watch?v=dBw5XuQeWSE">
+        あ (Ah)
+    </a>;
+    );
+  }
+
+  if (name === "A Meal") {
+    return (
+      <a href="https://www.leimay.org/a-meal-premier-2024/">
+        A Meal
+    </a>;
+    );
+  }
+
+  if (name === "(softspells)") {
+    return (
+      <a href="https://akanelittledance.com/works/softspells">
+        (softspells)
+    </a>;
+    );
+  }
+
+  if (name === "MOMMA!") {
+    return (
+      <a href="https://akanelittledance.com/works/momma">
+        MOMMA!
+    </a>;
+    );
+  }
+
+  if (name === "Extinction Rituals") {
+    return (
+      <a href="https://www.leimay.org/extinction-rituals-amp/">
+        Extinction Rituals
+    </a>;
+    );
+  }
+
+  if (name === "red room [dance film]") {
+    return (
+      <a href="https://akanelittledance.com/works/red-room">
+        red room [dance film]
+    </a>;
+    );
+  }
+  if (name === "You Left Me Alone [dance film]") {
+    return (
+      <a href="https://youtu.be/nuVnx7v01oY">
+        You Left Me Alone [dance film]
+    </a>;
+    );
   }
 
   return name;
