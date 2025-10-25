@@ -142,7 +142,7 @@ export default function Work({ params }: { params: Usable<WorkProps> }) {
           <figure className="text-center w-full">
             <div className="img-container w-full h-100 relative">
               <Image
-                className="object-contain xl:object-cover"
+                className="object-contain 2xl:object-cover"
                 src={performance.image.thumbnail.path}
                 layout="fill"
                 alt={`A performance still from ${performance.title}`}
