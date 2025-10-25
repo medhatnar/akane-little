@@ -45,9 +45,9 @@
         "contributors": "Benja Thompson & Akane Little"
       },
       { "contribution": "original sound", "contributors": "Onu Kang" },
-      { "contribution": "everything else", "contributors": "Akane Little" }
+      { "contribution": "choreography, direction & performance", "contributors": "Akane Little" }
     ],
-    "duration": 24
+    "duration": 25
   },
   "a-study-in-eros": {
     "id": 2,
@@ -127,12 +127,12 @@
         "contributors": "Anna Schultz"
       },
       { "contribution": "projection", "contributors": "Akane & Benja" },
-      { "contribution": "movement", "contributors": "Akane & Benja" },
+      { "contribution": "choreography", "contributors": "Akane & Benja" },
       {
         "contribution": "special thanks",
         "contributors": "Peggy and Cia, Ximena and Shige"
       },
-      { "contribution": "everything else", "contributors": "Akane & Benja" }
+      { "contribution": "direction & performance", "contributors": "Akane & Benja" }
     ],
     "duration": 38
   },
@@ -146,11 +146,11 @@
     "programs": [
       {
         "title": "presented at LEIMAY Constellation Salon 2025",
-        "link": "https://drive.google.com/file/d/18XFLfyNOGApp9xlaVfYrZE6Rb6mQ-Cn-/view?usp=sharing"
+        "link": "https://drive.google.com/file/d/1-oqffDkjp2iE8BHuxI4hC5JZqhn_f6hb/view"
       },
       {
         "title": "selected for the Exponential Fellowship 2026",
-        "link": "https://mailchi.mp/6230d5746a1d/the-exponential-festival-2020-announcement-1816573"
+        "link": "https://www.theexponentialfestival.org/"
       }
     ],
     "image": {
@@ -176,7 +176,7 @@
     "credits": [
       {
         "contribution": "dramaturgy",
-        "contributors": "Che’Li and Benja Thompson"
+        "contributors": "ALYXÅNDRA and Benja Thompson"
       },
       {
         "contribution": "lip sync",
@@ -186,7 +186,7 @@
         "contribution": "music edits",
         "contributors": "Akane Little, Michael Chinworth, and Drew Sensue-Weinstein"
       },
-      { "contribution": "everything else", "contributors": "Akane Little" }
+      { "contribution": "choreography, direction & performance", "contributors": "Akane Little" }
     ],
     "duration": 45
   },
@@ -287,7 +287,6 @@
           "/works/pre-surgery/ps-4.jpg",
           "/works/pre-surgery/ps-5.jpg",
           "/works/pre-surgery/ps-6.jpg",
-          "/works/pre-surgery/ps-7.jpg",
           "/works/pre-surgery/ps-8.jpeg",
           "/works/pre-surgery/ps-9.jpeg",
           "/works/pre-surgery/ps-10.jpeg",
