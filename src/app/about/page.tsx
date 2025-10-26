@@ -32,7 +32,7 @@ export default function About() {
             Boy Friday, Hivewild, Hard/Femme Dances, God Complex x Aeon Andreas, Nick Brooke, Michael 
             Chinworth, Chaesong Kim, and more). Commercial credits include Bridget Kearney (Lake Street 
             Dive), Carolina Oliveros (Combo Chimbita), Tom Petty, and Sam Smith. Since 2023, they have been a 
-            core member of the L<b>EIMAY Ensemble</b> under the direction of Ximena Garnica & Shige Moriya.
+            core member of the <b>LEIMAY Ensemble</b> under the direction of Ximena Garnica & Shige Moriya.
           </p>
           <p>
             They approach each production as an altar, set with uncanny objects
