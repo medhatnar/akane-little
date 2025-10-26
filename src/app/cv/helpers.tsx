@@ -58,7 +58,7 @@ export function getHyperLink(name: string) {
     return (
       <a href="https://youtu.be/7XjDwNrY2_M">
         power + pleasure???
-    </a>;
+    </a>
     );
   }
 
@@ -66,7 +66,7 @@ export function getHyperLink(name: string) {
     return (
       <a href="https://www.youtube.com/watch?v=dBw5XuQeWSE">
         あ (Ah)
-    </a>;
+    </a>
     );
   }
 
@@ -74,7 +74,7 @@ export function getHyperLink(name: string) {
     return (
       <a href="https://www.leimay.org/a-meal-premier-2024/">
         A Meal
-    </a>;
+    </a>
     );
   }
 
@@ -82,7 +82,7 @@ export function getHyperLink(name: string) {
     return (
       <a href="https://akanelittledance.com/works/softspells">
         (softspells)
-    </a>;
+    </a>
     );
   }
 
@@ -90,7 +90,7 @@ export function getHyperLink(name: string) {
     return (
       <a href="https://akanelittledance.com/works/momma">
         MOMMA!
-    </a>;
+    </a>
     );
   }
 
@@ -98,7 +98,7 @@ export function getHyperLink(name: string) {
     return (
       <a href="https://www.leimay.org/extinction-rituals-amp/">
         Extinction Rituals
-    </a>;
+    </a>
     );
   }
 
@@ -106,14 +106,14 @@ export function getHyperLink(name: string) {
     return (
       <a href="https://akanelittledance.com/works/red-room">
         red room [dance film]
-    </a>;
+    </a>
     );
   }
   if (name === "You Left Me Alone [dance film]") {
     return (
       <a href="https://youtu.be/nuVnx7v01oY">
         You Left Me Alone [dance film]
-    </a>;
+    </a>
     );
   }
 
