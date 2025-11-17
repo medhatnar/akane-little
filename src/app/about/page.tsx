@@ -36,11 +36,11 @@ export default function About() {
           </p>
           <p>
             They approach each production as an altar, set with uncanny objects
-            and activated by the choreographic disciplines of Western
-            contemporary dance, ballet, drag, lip sync, Bible Belt competition dance, and Butoh. 
-            Their altars ring with hyper-specific sonic references that tether the work to conscious 
-            realities, and hold tender narrative arcs that are dimensionally deepened by the
-            slippage between humor and horror.
+            and activated by the choreographic disciplines of Western contemporary dance, ballet, drag, 
+            lip sync, Bible Belt competition dance, and LUDUS, a movement technique 
+            in the lineage of Butoh. Their altars ring with hyper-specific sonic references that tether 
+            the work to conscious realities, and hold tender narrative arcs that are dimensionally 
+            deepened by the slippage between humor and horror.
           </p>
         </div>
       </main>
