@@ -58,11 +58,7 @@ export function getHyperLink(name: string) {
     return (
       <a href="https://youtu.be/7XjDwNrY2_M">
         power + pleasure???
-<<<<<<< HEAD
-      </a>
-=======
     </a>
->>>>>>> f1ccd49e7a021610eebcf1cfa0cd8ce29e5caeb7
     );
   }
 
@@ -70,11 +66,7 @@ export function getHyperLink(name: string) {
     return (
       <a href="https://www.youtube.com/watch?v=dBw5XuQeWSE">
         あ (Ah)
-<<<<<<< HEAD
-      </a>
-=======
     </a>
->>>>>>> f1ccd49e7a021610eebcf1cfa0cd8ce29e5caeb7
     );
   }
 
@@ -82,11 +74,7 @@ export function getHyperLink(name: string) {
     return (
       <a href="https://www.leimay.org/a-meal-premier-2024/">
         A Meal
-<<<<<<< HEAD
-      </a>
-=======
     </a>
->>>>>>> f1ccd49e7a021610eebcf1cfa0cd8ce29e5caeb7
     );
   }
 
@@ -94,11 +82,7 @@ export function getHyperLink(name: string) {
     return (
       <a href="https://akanelittledance.com/works/softspells">
         (softspells)
-<<<<<<< HEAD
-      </a>
-=======
     </a>
->>>>>>> f1ccd49e7a021610eebcf1cfa0cd8ce29e5caeb7
     );
   }
 
@@ -106,11 +90,7 @@ export function getHyperLink(name: string) {
     return (
       <a href="https://akanelittledance.com/works/momma">
         MOMMA!
-<<<<<<< HEAD
-      </a>
-=======
     </a>
->>>>>>> f1ccd49e7a021610eebcf1cfa0cd8ce29e5caeb7
     );
   }
 
@@ -118,11 +98,7 @@ export function getHyperLink(name: string) {
     return (
       <a href="https://www.leimay.org/extinction-rituals-amp/">
         Extinction Rituals
-<<<<<<< HEAD
-      </a>
-=======
     </a>
->>>>>>> f1ccd49e7a021610eebcf1cfa0cd8ce29e5caeb7
     );
   }
 
@@ -130,22 +106,14 @@ export function getHyperLink(name: string) {
     return (
       <a href="https://akanelittledance.com/works/red-room">
         red room [dance film]
-<<<<<<< HEAD
-      </a>
-=======
     </a>
->>>>>>> f1ccd49e7a021610eebcf1cfa0cd8ce29e5caeb7
     );
   }
   if (name === "You Left Me Alone [dance film]") {
     return (
       <a href="https://youtu.be/nuVnx7v01oY">
         You Left Me Alone [dance film]
-<<<<<<< HEAD
-      </a>
-=======
     </a>
->>>>>>> f1ccd49e7a021610eebcf1cfa0cd8ce29e5caeb7
     );
   }
 

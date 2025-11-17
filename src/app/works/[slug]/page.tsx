@@ -4,6 +4,7 @@ import Image from "next/image";
 import works from "../works.json";
 import { use, Usable } from "react";
 import { WorkMobileProps, WorkProps } from "../types";
+import Link from "next/link";
 
 type WorksKey = keyof typeof works;
 
@@ -64,12 +65,12 @@ function WorkMobile({ performance }: WorkMobileProps) {
       </ul>
       <p className="my-4 flex justify-between font-thin">
         {!!performance.duration && `Duration: ${performance.duration} minutes`}
-        <a
-          className="gallery-link text-center"
-          href={performance.image.assets.galleryPath}
+        <Link
+          href='/works'
+          className='gallery-link text-center'
         >
-          See full-sized gallery
-        </a>
+          Back to Works
+        </Link>
       </p>
       <ul className="grid grid-cols-1 md:grid-cols-3 md:gap-[16px]">
         {performance.image.assets.paths.map((path) => {
