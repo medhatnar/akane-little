@@ -109,10 +109,27 @@ export function getHyperLink(name: string) {
     </a>
     );
   }
+
   if (name === "You Left Me Alone [dance film]") {
     return (
       <a href="https://youtu.be/nuVnx7v01oY">
         You Left Me Alone [dance film]
+    </a>
+    );
+  }
+
+  if (name === "a study in eros") {
+    return (
+      <a href="https://akanelittledance.com/works/a-study-in-eros">
+        a study in eros
+    </a>
+    );
+  }
+
+  if (name === "formaldehyde") {
+    return (
+      <a href="https://akanelittledance.com/works/formaldehyde">
+        formaldehyde
     </a>
     );
   }
