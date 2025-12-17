@@ -32,7 +32,8 @@ export default function About() {
             Boy Friday, Hivewild, Hard/Femme Dances, God Complex x Aeon Andreas, Nick Brooke, Michael 
             Chinworth, Chaesong Kim, and more). Commercial credits include Bridget Kearney (Lake Street 
             Dive), Carolina Oliveros (Combo Chimbita), Tom Petty, and Sam Smith. Since 2023, they have been a 
-            core member of the <b>LEIMAY Ensemble</b> under the direction of Ximena Garnica & Shige Moriya.
+            core member of the Bessie-nominated <b>LEIMAY Ensemble</b> under the direction of Ximena Garnica & 
+            Shige Moriya.
           </p>
           <p>
             They approach each production as an altar, set with uncanny objects
@@ -40,7 +41,8 @@ export default function About() {
             lip sync, Bible Belt competition dance, and LUDUS, a movement technique 
             in the lineage of Butoh. Their altars ring with hyper-specific sonic references that tether 
             the work to conscious realities, and hold tender narrative arcs that are dimensionally 
-            deepened by the slippage between humor and horror.
+            deepened by the slippage between humor and horror. Their work has been presented at Triskelion 
+            Arts, CAVE Home of LEIMAY, Dixon Place, and The Tank.
           </p>
         </div>
       </main>

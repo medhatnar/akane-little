@@ -6,7 +6,7 @@ export default function Home() {
       <main className="w-screen">
         <div className="img-container w-full h-130 sm:w-screen sm:h-screen relative">
           <Image
-            src="/works/redroom/corner-1.png"
+            src="/FormaldehydeD2.309.jpg"
             alt="Akane Little"
             layout="fill"
             objectFit="cover"
