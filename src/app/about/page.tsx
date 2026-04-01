@@ -43,8 +43,10 @@ export default function About() {
             in the lineage of Butoh. Their altars ring with hyper-specific sonic references that tether 
             the work to conscious realities, and hold tender narrative arcs that are dimensionally 
             deepened by the slippage between humor and horror. Their work has been described as 
-            “viscerally tender and incisive" by The Dance Enthusiast and "raging with sincerity and longing" 
-            by Culturebot. They have been presented by Triskelion Arts, CAVE Home of LEIMAY, Dixon Place, 
+            “viscerally tender and incisive" by <link href="https://www.dance-enthusiast.com/features/impressions-reviews/view/Etay-Axelroad-Akane-Little-Alex-Rodabaugh-Tiran-Willemse-Live-Artery-Under-the-Radar-The-Exponential-Festival-Out-FRONT-Festival">The Dance Enthusiast</Link> 
+            and "raging with sincerity and longing" 
+            by <link href="https://www.culturebot.org/2026/03/103778/brief-flashes-of-aeon-andreas-faggotica/">Culturebot</link>. 
+            They have been presented by Triskelion Arts, CAVE Home of LEIMAY, Dixon Place, 
             Brick Aux, and The Tank.
           </p>
         </div>
