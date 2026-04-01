@@ -5,17 +5,18 @@ import { getHyperLink } from "./helpers";
 type CvKey = keyof typeof cv;
 
 const sections: { title: string; experienceProp: CvKey }[] = [
-  { title: "LIVE PERFORMANCE (2018-2025)", experienceProp: "live" },
-  { title: "FILM & MUSIC VIDEO (2019-2025)", experienceProp: "recorded" },
-  {
-    title: "SELECTED COMPANY WORK - RESIDENCIES, SHOOTS & GALAS (2021-2024)",
-    experienceProp: "company-work",
-  },
-  {
-    title: "FELLOWSHIPS & AWARDS (2025-2026)",
-    experienceProp: "fellowships-awards",
-  },
-  { title: "EDUCATION", experienceProp: "education" },
+  { title: "LIVE PERFORMANCE (2018-2026)", 
+    experienceProp: "live", },
+  { title: "FILM & MUSIC VIDEO (2019-2026)", 
+    experienceProp: "recorded", },
+  { title: "SELECTED COMPANY WORK - RESIDENCIES, SHOOTS & GALAS (2021-2024)", 
+    experienceProp: "company-work", },
+  { title: "FELLOWSHIPS & AWARDS (2025-2026)", 
+    experienceProp: "fellowships-awards", },
+  { title: "PRESS(2026)", 
+    experienceProp: "press", },
+  { title: "EDUCATION", 
+    experienceProp: "education" },
 ];
 
 export default function CV() {

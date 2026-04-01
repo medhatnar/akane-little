@@ -1,6 +1,18 @@
 {
   "live": [
      {
+      "title": "MOMMA!",
+      "date": "January 2026",
+      "description": "Direction, Choreography & Performance: Akane Little",
+      "location": "Brick Aux - Brooklyn, NY"
+    },
+     {
+      "title": "FAGGOTICA",
+      "date": "January 2026",
+      "description": "Direction: Aeon Andreas",
+      "location": "Brooklyn Art Haus - Brooklyn, NY"
+    },
+     {
       "title": "formaldehyde",
       "date": "November 2025",
       "description": "Direction, Choreography & Performance: Akane Little",
@@ -19,7 +31,7 @@
       "location": "The Tank - New York, NY"
     },
     {
-      "title": "MOMMA!",
+      "title": "MOMMA! [work in progress excerpt]",
       "date": "Mar. 2025",
       "description": "Direction, Choreography & Performance: Akane Little",
       "location": "CAVE - Brooklyn, NY"
@@ -323,6 +335,22 @@
       "description": "Triskelion Arts",
       "location": "Brooklyn, NY"
     }
+  ],
+  "press": [
+    {
+      "title": "IMPRESSIONS: Winter in Brief (Part 3): Etay Axelroad, Akane Little, Alex Rodabaugh and Tiran Willemse in Solo Works",
+      "date": "January 2026",
+      "description": "The Dance Enthusiast"
+    },
+    {
+      "title": "invitation #006 - marathon!",
+      "date": "February 2026"
+    }
+    {
+      "title": "Brief Flashes of Aeon Andreas’ FAGGOTICA",
+      "date": "March 2026",
+      "description": "Culturebot"
+    },
   ],
   "education": [
     {

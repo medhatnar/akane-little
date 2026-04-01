@@ -20,9 +20,10 @@ export default function About() {
       <main className="px-8 pb-10 lg:h-full lg:w-1/2 xl:w-3/4">
         <div className="about-container sm:w-md lg:w-xl text-md sm:text-xl sm:font-thin">
           <p className="mb-5 sm:mb-10">
-            <b>Akane Little</b> is a Brooklyn-based dance artist approaching the
-            body and performance as an altar-portal for transmuting energy and
-            channeling worlds. They started off in competition dance in a
+            <b>Akane Little</b>  is a Brooklyn-based dance artist approaching 
+            the body and performance as sites of ritual porosity, enlivened by flesh, 
+            blood, and attention to activate states of dimensional liminality. 
+            They started off in competition dance in a
             small-town studio in Mississippi, and continued on to study
             contemporary dance under Alysia Ramos at Oberlin College.
           </p>
@@ -41,8 +42,10 @@ export default function About() {
             lip sync, Bible Belt competition dance, and LUDUS, a movement technique 
             in the lineage of Butoh. Their altars ring with hyper-specific sonic references that tether 
             the work to conscious realities, and hold tender narrative arcs that are dimensionally 
-            deepened by the slippage between humor and horror. Their work has been presented at Triskelion 
-            Arts, CAVE Home of LEIMAY, Dixon Place, and The Tank.
+            deepened by the slippage between humor and horror. Their work has been described as 
+            “viscerally tender and incisive" by The Dance Enthusiast and "raging with sincerity and longing" 
+            by Culturebot. They have been presented by Triskelion Arts, CAVE Home of LEIMAY, Dixon Place, 
+            Brick Aux, and The Tank.
           </p>
         </div>
       </main>

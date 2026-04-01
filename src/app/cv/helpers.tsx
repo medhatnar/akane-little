@@ -86,10 +86,10 @@ export function getHyperLink(name: string) {
     );
   }
 
-  if (name === "MOMMA!") {
+  if (name === "MOMMA! [work in progress excerpt]") {
     return (
       <a href="https://akanelittledance.com/works/momma">
-        MOMMA!
+        MOMMA! [work in progress excerpt]
     </a>
     );
   }
@@ -131,6 +131,46 @@ export function getHyperLink(name: string) {
       <a href="https://akanelittledance.com/works/formaldehyde">
         formaldehyde
     </a>
+    );
+  }
+
+  if (name === "FAGGOTICA") {
+      return (
+        <a href="https://www.culturebot.org/2026/03/103778/brief-flashes-of-aeon-andreas-faggotica/">
+          FAGGOTICA
+      </a>
+      );
+  }
+
+  if (name === "MOMMA!") {
+      return (
+        <a href="https://www.dance-enthusiast.com/features/impressions-reviews/view/Etay-Axelroad-Akane-Little-Alex-Rodabaugh-Tiran-Willemse-Live-Artery-Under-the-Radar-The-Exponential-Festival-Out-FRONT-Festival">
+          MOMMA!
+      </a>
+      );
+  }
+
+  if (name === "IMPRESSIONS: Winter in Brief (Part 3): Etay Axelroad, Akane Little, Alex Rodabaugh and Tiran Willemse in Solo Works") {
+    return (
+        <a href="https://www.dance-enthusiast.com/features/impressions-reviews/view/Etay-Axelroad-Akane-Little-Alex-Rodabaugh-Tiran-Willemse-Live-Artery-Under-the-Radar-The-Exponential-Festival-Out-FRONT-Festival">
+         IMPRESSOINS: Winter in Brief
+      </a>
+    );
+  }
+
+  if (name === "invitation #006 - marathon!") {
+    return (
+      <a href="https://invitations.substack.com/p/invitation-006-marathon">
+        inivation #006 - marathon!
+      </a>
+    );
+  }
+
+  if (name === "Brief Flashes of Aeon Andreas’ FAGGOTICA") {
+    return (
+      <a href="https://www.culturebot.org/2026/03/103778/brief-flashes-of-aeon-andreas-faggotica/">
+        Brief Flashes of Aeon Andreas' FAGGOTICA
+      </a>
     );
   }
 
