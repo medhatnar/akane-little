@@ -23,7 +23,7 @@ export default function Contact() {
             <h2 className="text-xl">they/them</h2>
           
           <address className="mt-10">
-            <a href="mailto:akane.m.little@gmail.com">akane.m.little@gmail.com</a>
+            <a href="mailto:akane.m.little@protonmail.com">akane.m.little@protonmail.com</a>
             <br/>
             <span className="sr-only">Instagram: @akane.little</span>
             IG: <a href="https://www.instagram.com/akane.little/">@akane.little</a>
