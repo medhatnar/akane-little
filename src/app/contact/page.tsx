@@ -19,7 +19,7 @@ export default function Contact() {
       </figure>
       <main className="px-8 pb-10 lg:h-full lg:w-1/2 xl:w-3/4 text-center">
         <div className="contact-container sm:w-md text-3xl lg:text-2xl font-thin">
-            <h1>Akane Little</h1>
+            <h1>Akane Littler</h1>
             <h2 className="text-xl">they/them</h2>
           
           <address className="mt-10">
