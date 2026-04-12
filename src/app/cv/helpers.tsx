@@ -153,7 +153,7 @@ export function getHyperLink(name: string) {
   if (name === "IMPRESSIONS: Winter in Brief (Part 3): Etay Axelroad, Akane Little, Alex Rodabaugh and Tiran Willemse in Solo Works") {
     return (
         <a href="https://www.dance-enthusiast.com/features/impressions-reviews/view/Etay-Axelroad-Akane-Little-Alex-Rodabaugh-Tiran-Willemse-Live-Artery-Under-the-Radar-The-Exponential-Festival-Out-FRONT-Festival">
-         IMPRESSOINS: Winter in Brief
+         IMPRESSIONS: Winter in Brief
       </a>
     );
   }
