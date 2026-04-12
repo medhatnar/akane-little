@@ -57,7 +57,8 @@ button:hover {
 }
 
 #education,
-#fellowships-awards {
+#fellowships-awards,
+#press {
   height: calc(var(--spacing) * 37);
   border: none;
 
