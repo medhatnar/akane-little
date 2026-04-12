@@ -13,9 +13,9 @@ const sections: { title: string; experienceProp: CvKey }[] = [
     experienceProp: "company-work", },
   { title: "FELLOWSHIPS & AWARDS (2025-2026)", 
     experienceProp: "fellowships-awards", },
-  { title: "PRESS(2026)", 
+  { title: "PRESS (2026)", 
     experienceProp: "press", },
-  { title: "EDUCATION", 
+  { title: "EDUCATION",  
     experienceProp: "education" },
 ];
 
