@@ -19,6 +19,7 @@ const sections: { title: string; experienceProp: CvKey }[] = [
     experienceProp: "education" },
 ];
 
+
 export default function CV() {
   return (
     <div className="figure-cv-container flex flex-col w-full h-full ">
