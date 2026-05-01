@@ -37,8 +37,8 @@ export default function About() {
             They have freelanced in both Cleveland, OH (Catherine Meredith,
             Megan Young, Madi Jackson, Rebecca Burcher, and more) and New York
             City (Kinesis Project, Boy Friday, Hivewild, Hard/Femme Dances, God
-            Complex x Aeon Andreas, Nick Brooke, Michael Chinworth, Chaesong
-            Kim, and more). Commercial credits include Bridget Kearney (Lake
+            Complex x Aeon Andreas, Nick Brooke, Chaesong Kim, Glenn Potter-Takata, 
+            and more). Commercial credits include Bridget Kearney (Lake
             Street Dive), Carolina Oliveros (Combo Chimbita), Tom Petty, and Sam
             Smith. Since 2023, they have been a core member of the
             Bessie-nominated <b>LEIMAY Ensemble</b> under the direction of
@@ -48,10 +48,13 @@ export default function About() {
             They approach each production as an altar, set with uncanny objects
             and activated by the choreographic disciplines of Western
             contemporary dance, ballet, drag, lip sync, Bible Belt competition
-            dance, and LUDUS, a movement technique in the lineage of Butoh.
+            dance, and LUDUS, a movement technique in the lineage of Butoh. Their work 
+            is concerned with ritualized attention and porous experiences that aid with 
+            remembering, pondering, and witnessing mythic worlds as answers to 
+            the riddles of existentialism, absurdity, contradiction, beauty, and the abject.
             Their altars ring with hyper-specific sonic references that tether
             the work to conscious realities, and hold tender narrative arcs that
-            are dimensionally deepened by the slippage between humor and horror.
+            are dimensionally deepened by the slippage between humor and horror. 
             Their work has been described as “viscerally tender and incisive" by
             <a href="https://www.dance-enthusiast.com/features/impressions-reviews/view/Etay-Axelroad-Akane-Little-Alex-Rodabaugh-Tiran-Willemse-Live-Artery-Under-the-Radar-The-Exponential-Festival-Out-FRONT-Festival">
               {" "}
@@ -61,8 +64,8 @@ export default function About() {
             <a href="https://www.culturebot.org/2026/03/103778/brief-flashes-of-aeon-andreas-faggotica/">
               Culturebot
             </a>
-            . They have been presented by Triskelion Arts, CAVE Home of LEIMAY,
-            Dixon Place, Brick Aux, and The Tank.
+            . They have been presented by Triskelion Arts, CAVE Home of LEIMAY, 
+            Exponential Festival at Brick Aux, Dixon Place, and The Tank.
           </p>
         </div>
       </main>
