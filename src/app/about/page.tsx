@@ -64,8 +64,10 @@ export default function About() {
             <a href="https://www.culturebot.org/2026/03/103778/brief-flashes-of-aeon-andreas-faggotica/">
               Culturebot
             </a>
-            . They have been presented by Triskelion Arts, CAVE Home of LEIMAY, 
-            Exponential Festival at Brick Aux, Dixon Place, and The Tank.
+            . They were an inaugural Exponential Festival Self-Producing Fellow (2025-2026),
+            and their work has been presented by Triskelion Arts (SPLIT BILL #46, 2025), 
+            CAVE Home of LEIMAY (LEIMAY Constellation Salon 2025), Brick Aux (Exponential Festival 2026), 
+            Dixon Place (Concrete BOOM! 2025), and The Tank (Pridefest 2025).
           </p>
         </div>
       </main>
