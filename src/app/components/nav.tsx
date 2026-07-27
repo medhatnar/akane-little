@@ -1,47 +1,106 @@
 "use client";
 import Link from "next/link";
 import { useState } from "react";
-import { usePathname } from 'next/navigation';
 
-const links = [
-  { href: '/', label: 'Home' },
-  { href: '/about', label: 'About' },
-  { href: '/reiki', label: 'Reiki' },
-  { href: '/training', label: 'Training' },
-  { href: '/booking', label: 'Booking' },
-];
+const navItems = {
+  "/about": {
+    name: "about",
+  },
+  "/works": {
+    name: "works",
+  },
+  "/cv": {
+    name: "cv",
+  },
+  "/contact": {
+    name: "contact",
+  },
+};
+
+const styles = {
+  active: "text-(--maroon) font-bold",
+  inactive: "font-thin",
+};
 
 export function Navbar() {
-  const pathname = usePathname();
-  const [open, setOpen] = useState(false);
-
+  const [activePage, setActivePage] = useState("");
+  const [overlayActive, setOverlayActive] = useState(false);
+  
   return (
-    <header>
-      <div className="brand">
-        <span className="ring"></span> AKANE LITTLE HOLISTIC
-      </div>
-      <button
-        className="nav-toggle"
-        aria-label="Toggle menu"
-        onClick={() => setOpen((o) => !o)}
-      >
-        ☰
-      </button>
-      <nav>
-        <ul className={open ? "open" : ""}>
-          {links.map((link) => (
-            <li key={link.href}>
-              <Link
-                href={link.href}
-                className={pathname === link.href ? "active" : ""}
-                onClick={() => setOpen(false)}
+    <aside className="px-0 md:px-10 sm:mb-10">
+      <div className="lg:sticky lg:top-20">
+        <nav
+          className="flex flex-row w-full justify-between items-center"
+          id="nav"
+        >
+          <div className="p-4">
+            <Link
+              href="/"
+              className="rounded-sm font-thin text-[calc(1*calc(.012*min(100vh,900px))+1rem)] tracking-widest"
+              onClick={() => setActivePage("")}
+            >
+              Akane Little
+            </Link>
+          </div>
+          <div className="flex flex-row p-4 tracking-wider">
+            <div className="sm:hidden header-burger-btn burger p-5">
+              <button
+                className="sm:hidden header-burger-btn burger p-5"
+                data-test="header-burger"
+                onClick={() => setOverlayActive(!overlayActive)}
               >
-                {link.label}
+                <span className="js-header-burger-open-title sr-only">
+                  Open or Close Menu
+                </span>
+                <div className="burger-box flex flex-col justify-between">
+                  <div className="top-bun w-16 h-1 border-b border-black mt-1 mx-auto"></div>
+                  <div className="patty w-16 h-1 border-b border-black my-4 mx-auto"></div>
+                  <div className="bottom-bun w-16 h-1 border-b border-black mb-1 mx-auto"></div>
+                </div>
+              </button>
+            </div>
+            {Object.entries(navItems).map(([path, { name }]) => {
+              return (
+                <Link
+                  key={path}
+                  href={path}
+                  className={`hidden sm:flex align-middle py-1 px-2 m-1 text-base sm:text-[calc(.5*calc(.012*min(100vh,900px))+1rem)] ${
+                    activePage === name ? styles.active : styles.inactive
+                  }`}
+                  onClick={() => setActivePage(name)}
+                >
+                  {name}
+                </Link>
+              );
+            })}
+          </div>
+        </nav>
+      </div>
+      <div className={`overlay ${overlayActive ? "block" : "hidden"}`}>
+        <div className="overlay-content mx-auto">
+          <button
+            className="text-white mx-auto border border-solid py-4 px-8"
+            onClick={() => setOverlayActive(false)}
+          >
+            X
+          </button>
+          {Object.entries(navItems).map(([path, { name }]) => {
+            return (
+              <Link
+                key={path}
+                href={path}
+                className={`hidden py-2 px-2 m-1 mt-8 text-base sm:text-[calc(.5*calc(.012*min(100vh,900px))+1rem)] ${styles.inactive}`}
+                onClick={() => {
+                  setActivePage(name);
+                  setOverlayActive(false);
+                }}
+              >
+                {name}
               </Link>
-            </li>
-          ))}
-        </ul>
-      </nav>
-    </header>
+            );
+          })}
+        </div>
+      </div>
+    </aside>
   );
 }
