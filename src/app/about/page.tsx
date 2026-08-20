@@ -48,7 +48,7 @@ export default function About() {
             contemporary dance, ballet, drag, lip sync, Bible Belt competition
             dance, and LUDUS, a movement technique in the lineage of Butoh.
             Their altars ring with hyper-specific sonic references that tether
-            the work to realities, and hold tender narrative arcs that
+            the work to conscious realities, and hold tender narrative arcs that
             are dimensionally deepened by the slippage between humor and horror.
             Their work has been described as “viscerally tender and incisive" by
             <a href="https://www.dance-enthusiast.com/features/impressions-reviews/view/Etay-Axelroad-Akane-Little-Alex-Rodabaugh-Tiran-Willemse-Live-Artery-Under-the-Radar-The-Exponential-Festival-Out-FRONT-Festival">
