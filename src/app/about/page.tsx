@@ -46,12 +46,10 @@ export default function About() {
             They approach each production as an altar, set with uncanny objects
             and activated by the choreographic disciplines of Western
             contemporary dance, ballet, drag, lip sync, Bible Belt competition
-            dance, and LUDUS, a movement technique in the lineage of Butoh. They consider 
-            each altar as a site of ritual porosity, enlivened by flesh, blood, and attention 
-            to activate states of dimensional liminality. Their altars ring with hyper-specific 
-            sonic references that tether the work to conscious realities. Visceral scenes are 
-            dimensionally deepened by the slippage between humor and horror. Sparkling 
-            references to pop culture are recontextualized in an embodied fabric of existential mythopoetry.
+            dance, and LUDUS, a movement technique in the lineage of Butoh.
+            Their altars ring with hyper-specific sonic references that tether
+            the work to realities, and hold tender narrative arcs that
+            are dimensionally deepened by the slippage between humor and horror.
             Their work has been described as “viscerally tender and incisive" by
             <a href="https://www.dance-enthusiast.com/features/impressions-reviews/view/Etay-Axelroad-Akane-Little-Alex-Rodabaugh-Tiran-Willemse-Live-Artery-Under-the-Radar-The-Exponential-Festival-Out-FRONT-Festival">
               {" "}
