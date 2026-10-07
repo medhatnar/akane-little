@@ -1,10 +1,4 @@
 import Image from "next/image";
-import Link from "next/link";
-
-const styles = {
-  active: "text-(--maroon) font-bold",
-  inactive: "font-thin",
-};
 
 export default function About() {
   return (
@@ -13,7 +7,7 @@ export default function About() {
         <div className="img-container w-screen md:w-full h-70 md:h-120 sm:mx-auto relative">
           <Image
             className="object-contain md:object-cover lg:object-contain"
-            src="/works/redroom/corner-5.png"
+            src="/public/works/redroom/corner-5.png"
             alt="Akane is laying on a chair with one half of their body and floating in the air with the other half."
             layout="fill"
             priority
