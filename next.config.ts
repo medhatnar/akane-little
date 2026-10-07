@@ -1,10 +1,16 @@
 import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
- images: {
-    domains: ['i.postimg.cc'],
-    
+  images: {
+    remotePatterns: [
+      {
+        protocol: 'https',
+        hostname: 'i.postimg.cc',
+        pathname: '/**', // Matches all paths from this domain
+      },
+    ],
   },
 };
 
 export default nextConfig;
+
