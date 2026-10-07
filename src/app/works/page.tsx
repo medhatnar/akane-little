@@ -1,4 +1,4 @@
-import Image from "next/image";
+import Image from "next/legacy/image";
 import works from "./works.json";
 
 export default function Works() {
