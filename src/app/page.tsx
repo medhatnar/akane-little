@@ -9,7 +9,7 @@ export default function Home() {
             src="/FormaldehydeD2.309.jpg"
             alt="Akane Little"
             fill
-            sizes="(max-width: 768px) 100vw, 50vw" // Helps Next.js serve optimized source sizes
+            sizes="(max-width: 640px) 100vw, 100vw" // Helps Next.js serve optimized source sizes
             style={{ objectFit: "cover" }}
             objectFit="cover"
             priority

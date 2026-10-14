@@ -10,7 +10,7 @@ interface ScrollableTextProps {
 
 export default function ScrollableText({
   children,
-  maxHeight = "48vh",
+  maxHeight = "400px",
   className = "",
 }: ScrollableTextProps) {
   const ref = useRef<HTMLDivElement>(null);
@@ -25,20 +25,22 @@ export default function ScrollableText({
 
   return (
     <div className="relative">
-      <div className="absolute top-0 left-0 h-1 w-full md:w-50 bg-gray-200 z-10 rounded-t-lg">
+      {/* Optional progress bar */}
+      <div className="absolute top-0 left-0 h-1 w-full bg-gray-200 z-10 rounded-t-lg">
         <div
           className="h-full bg-(--maroon) transition-[width] duration-100"
           style={{ width: `${progress}%` }}
         />
       </div>
+
       <div
         ref={ref}
         onScroll={handleScroll}
         tabIndex={0}
         role="region"
         aria-label="Scrollable text content"
-        style={{ maxHeight, width: "100%" }}
-        className={`overflow-y-auto rounded-lg border border-gray-300 p-6 pt-4 leading-relaxed ${className}`}
+        style={{ maxHeight }}
+        className={`overflow-y-auto rounded-lg border border-gray-300 p-6 pt-4 leading-relaxed focus:outline-none focus:ring-2 focus:ring-blue-500 ${className}`}
       >
         {children}
       </div>
