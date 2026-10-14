@@ -1,5 +1,0 @@
-[build]
-  command = "yarn run build"
-
-[functions]
-  directory = "netlify/functions"
