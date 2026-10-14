@@ -1,4 +1,4 @@
-import Image from "next/legacy/image";
+import Image from "next/image";
 
 export default function Contact() {
   return (
@@ -10,7 +10,9 @@ export default function Contact() {
             className="object-contain md:object-cover lg:object-contain"
             src="/works/redroom/corner-12.png"
             alt="Akane is sprawled and contorted against the corner of a dark room."
-            layout="fill"
+            fill
+            sizes="(max-width: 768px) 100vw, 50vw" // Helps Next.js serve optimized source sizes
+            style={{ objectFit: "cover" }}
           />
         </div>
         <figcaption className="text-xs sm:text-sm text-gray-500">
@@ -19,14 +21,17 @@ export default function Contact() {
       </figure>
       <main className="px-8 pb-10 lg:h-full lg:w-1/2 xl:w-3/4 text-center">
         <div className="contact-container sm:w-md text-3xl lg:text-2xl font-thin">
-            <h1>Akane Little</h1>
-            <h2 className="text-xl">they/them</h2>
-          
+          <h1>Akane Little</h1>
+          <h2 className="text-xl">they/them</h2>
+
           <address className="mt-10">
-            <a href="mailto:akane.m.little@protonmail.com">akane.m.little@protonmail.com</a>
-            <br/>
+            <a href="mailto:akane.m.little@protonmail.com">
+              akane.m.little@protonmail.com
+            </a>
+            <br />
             <span className="sr-only">Instagram: @akane.little</span>
-            IG: <a href="https://www.instagram.com/akane.little/">@akane.little</a>
+            IG:{" "}
+            <a href="https://www.instagram.com/akane.little/">@akane.little</a>
           </address>
         </div>
       </main>

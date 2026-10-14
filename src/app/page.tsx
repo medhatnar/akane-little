@@ -1,4 +1,4 @@
-import Image from "next/legacy/image";
+import Image from "next/image";
 
 export default function Home() {
   return (
@@ -8,7 +8,9 @@ export default function Home() {
           <Image
             src="/FormaldehydeD2.309.jpg"
             alt="Akane Little"
-            layout="fill"
+            fill
+            sizes="(max-width: 768px) 100vw, 50vw" // Helps Next.js serve optimized source sizes
+            style={{ objectFit: "cover" }}
             objectFit="cover"
             priority
           />

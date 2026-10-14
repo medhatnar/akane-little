@@ -1,4 +1,4 @@
-import Image from "next/legacy/image";
+import Image from"next/image";
 import cv from "./cv.json";
 import { getHyperLink } from "./helpers";
 
@@ -30,7 +30,7 @@ export default function CV() {
             className="object-contain"
             src="/AkaneLittle_MengwenCao.jpg"
             alt="A portrait of Akane"
-            layout="fill"
+            
           />
         </div>
         <figcaption className="text-xs sm:text-sm text-gray-500">

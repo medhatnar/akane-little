@@ -1,4 +1,4 @@
-import Image from "next/legacy/image";
+import Image from "next/image";
 import works from "./works.json";
 
 export default function Works() {
@@ -14,12 +14,17 @@ export default function Works() {
                   <Image
                     className="object-cover"
                     src={image.thumbnail.path}
-                    layout="fill"
+                    fill
+                    sizes="(max-width: 768px) 100vw, 50vw" // Helps Next.js serve optimized source sizes
+                    style={{ objectFit: "cover" }}
                     alt={`A performance still from ${title}`}
+                    loading="eager"
                   />
                 </div>
               </a>
-              <h2 className="m-2 text-2xl font-thin">{title} {date}</h2>
+              <h2 className="m-2 text-2xl font-thin">
+                {title} {date}
+              </h2>
             </li>
           );
         })}

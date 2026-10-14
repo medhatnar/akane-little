@@ -1,5 +1,5 @@
 "use client";
-import Image from "next/legacy/image";
+import Image from"next/image";
 
 import works from "../works.json";
 import { use, Usable } from "react";
@@ -21,7 +21,7 @@ function WorkMobile({ performance }: WorkMobileProps) {
             <Image
               className="object-cover"
               src={performance.image.thumbnail.path}
-              layout="fill"
+              
               alt={`A performance still from ${performance.title}`}
             />
           </div>
@@ -80,7 +80,7 @@ function WorkMobile({ performance }: WorkMobileProps) {
                 <Image
                   className="object-cover"
                   src={path}
-                  layout="fill"
+                  
                   alt={`A performance still from ${performance.title}`}
                 />
               </div>
@@ -145,7 +145,7 @@ export default function Work({ params }: { params: Usable<WorkProps> }) {
               <Image
                 className="object-contain 2xl:object-cover"
                 src={performance.image.thumbnail.path}
-                layout="fill"
+                
                 alt={`A performance still from ${performance.title}`}
               />
             </div>
@@ -184,7 +184,7 @@ export default function Work({ params }: { params: Usable<WorkProps> }) {
                       <Image
                         className="object-cover"
                         src={path}
-                        layout="fill"
+                        
                         alt={`A performance still from ${performance.title}`}
                       />
                     </div>
