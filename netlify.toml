@@ -1,2 +1,5 @@
 [build]
   command = "next build"
+
+[functions]
+  directory = "netlify/functions"
