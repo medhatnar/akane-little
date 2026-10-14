@@ -18,7 +18,6 @@ export default function Works() {
                     sizes="(max-width: 768px) 100vw, 50vw" // Helps Next.js serve optimized source sizes
                     style={{ objectFit: "cover" }}
                     alt={`A performance still from ${title}`}
-                    loading="eager"
                   />
                 </div>
               </a>

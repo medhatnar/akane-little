@@ -10,7 +10,6 @@ export default function About() {
             className="object-contain w-full h-full"
             src="/works/redroom/corner-5.png"
             fill
-            loading="eager"
             sizes="(max-width: 640px) 100vw, 90vw" // Helps Next.js serve optimized source sizes
             alt="Akane is laying on a chair with one half of their body and floating in the air with the other half."
           />
