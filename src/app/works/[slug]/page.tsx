@@ -1,5 +1,5 @@
 "use client";
-import Image from"next/image";
+import Image from "next/image";
 
 import works from "../works.json";
 import { use, Usable } from "react";
@@ -21,7 +21,10 @@ function WorkMobile({ performance }: WorkMobileProps) {
             <Image
               className="object-cover"
               src={performance.image.thumbnail.path}
-              
+              fill
+              sizes="(max-width: 768px) 100vw, 50vw" // Helps Next.js serve optimized source sizes
+              style={{ objectFit: "cover" }}
+              unoptimized
               alt={`A performance still from ${performance.title}`}
             />
           </div>
@@ -65,10 +68,7 @@ function WorkMobile({ performance }: WorkMobileProps) {
       </ul>
       <p className="my-4 flex justify-between font-thin">
         {!!performance.duration && `Duration: ${performance.duration} minutes`}
-        <Link
-          href='/works'
-          className='gallery-link text-center'
-        >
+        <Link href="/works" className="gallery-link text-center">
           Back to Works
         </Link>
       </p>
@@ -80,8 +80,11 @@ function WorkMobile({ performance }: WorkMobileProps) {
                 <Image
                   className="object-cover"
                   src={path}
-                  
                   alt={`A performance still from ${performance.title}`}
+                  fill
+                  sizes="(max-width: 768px) 100vw, 50vw" // Helps Next.js serve optimized source sizes
+                  style={{ objectFit: "cover" }}
+                  unoptimized
                 />
               </div>
             </li>
@@ -145,8 +148,11 @@ export default function Work({ params }: { params: Usable<WorkProps> }) {
               <Image
                 className="object-contain 2xl:object-cover"
                 src={performance.image.thumbnail.path}
-                
                 alt={`A performance still from ${performance.title}`}
+                fill
+                sizes="(max-width: 768px) 100vw, 50vw" // Helps Next.js serve optimized source sizes
+                style={{ objectFit: "cover" }}
+                unoptimized
               />
             </div>
             <figcaption className="text-sm text-gray-500">
@@ -184,8 +190,11 @@ export default function Work({ params }: { params: Usable<WorkProps> }) {
                       <Image
                         className="object-cover"
                         src={path}
-                        
                         alt={`A performance still from ${performance.title}`}
+                        fill
+                        sizes="(max-width: 768px) 100vw, 50vw" // Helps Next.js serve optimized source sizes
+                        style={{ objectFit: "cover" }}
+                        unoptimized
                       />
                     </div>
                   </li>

@@ -62,7 +62,7 @@ export default function CV() {
                   const titleStyled = getHyperLink(exp.title);
                   return (
                     <li
-                      key={exp.title}
+                      key={exp.title + exp.location + exp.date + exp.description}
                       className="flex w-full border border-(--maroon)"
                     >
                       <p className="m-2">{exp.date}</p>
