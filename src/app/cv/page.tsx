@@ -30,7 +30,9 @@ export default function CV() {
             className="object-contain"
             src="/AkaneLittle_MengwenCao.jpg"
             alt="A portrait of Akane"
-            
+            fill
+            sizes="(max-width: 640px) 100vw, 90vw"
+            loading="eager"
           />
         </div>
         <figcaption className="text-xs sm:text-sm text-gray-500">
